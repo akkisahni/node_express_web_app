@@ -1,0 +1,39 @@
+{
+  "name": "express-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG='EXPRESS_POC' node app.js",
+    "preload": "DEBUG='EXPRESS_POC*' NODE_ENV='development' nodemon -r dotenv/config app.js",
+    "lint": "eslint app.js --fix",
+    "lint:init": "eslint --init"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "3.3.7",
+    "chalk": "^2.4.2",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "dotenv": "^8.1.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "jquery": "3.4.1",
+    "mongoclient": "^1.0.3",
+    "mongodb": "^3.3.2",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.1"
+  }
+}
