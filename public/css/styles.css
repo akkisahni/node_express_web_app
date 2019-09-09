@@ -358,8 +358,20 @@ iframe {
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-  margin: 50px auto;
+  margin: 0 auto;
   padding: 15px;
+
+}
+.imageWrapper{
+  width: 100%;
+  position: relative;
+  background: url(/images/background.jpeg);
+  padding: 50px;
+}
+
+
+
+
 }
 
 
