@@ -22,7 +22,7 @@
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "express-session": "^1.16.2",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "mongoclient": "^1.0.3",
     "mongodb": "^3.3.2",
     "morgan": "^1.9.1",
